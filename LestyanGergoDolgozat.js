@@ -14,7 +14,7 @@ function isLeapYear(year) {
         }
     }
     else{
-        megoldas=true;
+        megoldas=false;
     }
     return megoldas;
 }
