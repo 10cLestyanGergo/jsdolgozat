@@ -76,6 +76,7 @@ function cuboid(a, b, c) {
     else{
         felszinterfogat=(2*(a*b+a*c+b*c)+" a felszíne a téglatestnek "+a*b*c+" a térfogata a téglatestnek")
     }
+    return felszinterfogat;
 
 }
 function fizzbuzz(number) {
