@@ -70,15 +70,16 @@ function stonePaperScissors(player1, player2) {
 }
 function cuboid(a, b, c) {
     let felszinterfogat='';
-    if(a>=0||b>=0||c>=0){
+    if(a<=0||b<=0||c<=0){
         felszinterfogat+="Rossz adat, a téglatest felszíne 0"
     }
     else{
         felszinterfogat=(2*(a*b+a*c+b*c)+" a felszíne a téglatestnek "+a*b*c+" a térfogata a téglatestnek")
     }
     return felszinterfogat;
-
 }
+console.log(cuboid(10.4, 13.5, 8.2))
+
 function fizzbuzz(number) {
     let sorozat='';
     for(let i=1;i<=number;i++){
